@@ -48,9 +48,9 @@ linkedin_username: jonathan-isaac-garcía-huerta-a420a2230
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-Buenas soy Jonathan! actualmente soy estudiante de ingenieria en computacion en CUCEI, principalmente programo en C#, aunque no tengo problema en programar en alguna otra cosa
+  Buenas soy Jonathan! actualmente soy estudiante de ingenieria en computacion en CUCEI, principalmente programo en C#, aunque no tengo problema en programar en alguna otra cosa
 
-Siempre es bueno practicar patrones de diseño, frameworks como react o simplemente practicar nuevos lenguajes de programacion!
+  Siempre es bueno practicar patrones de diseño, frameworks como react o simplemente practicar nuevos lenguajes de programacion!
 
 content:
   - title: Projects # Title for the section
