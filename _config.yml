@@ -1,0 +1,140 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Jonathan Isaac Garcia Huerta
+title: ASP.NET Developer 
+email: Jonathan.cn@live.com
+website: github.com/Xinoji/Xinoji.github.io
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+#twitter_username: 
+github_username:  Xinoji
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: jameswgrant
+linkedin_username: jonathan-isaac-garcía-huerta-a420a2230
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+Buenas soy Jonathan! actualmente soy estudiante de ingenieria en computacion en CUCEI, principalmente programo en C#, aunque no tengo problema en programar en alguna otra cosa
+
+Siempre es bueno practicar patrones de diseño, frameworks como react o simplemente practicar nuevos lenguajes de programacion!
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Productive Horoscope
+        link: github.com/Xinoji
+        # link_text: Project Website
+        additional_links:
+          - title:  Xinoji/ProductiveHoroscope
+            icon: fab fa-github
+            url: github.com/Xinoji/ProductiveHoroscope
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          No volvere a gestionar kubernetes usando minikube, pero en Azure o cualquier otro servicio esta piola
+        description: | # this will include new lines to allow paragraphs
+          La idea del proyecto salio como un chiste para burlarse de los horoscopos, pero en la materia era necesario realizar un proyecto cualquiera y volverlo tolerante a fallas,
+          por lo cual se realizo el proyecto y se utilizo principalmente para practicar el uso de kubernetes.
+    content:
+      - layout: top-middle
+        title: Kairos Scheduler
+        link: github.com/Xinoji
+        # link_text: Project Website
+        additional_links:
+          - title:  Xinoji/KairosScheduler
+            icon: fab fa-github
+            url: github.com/Xinoji/KairosScheduler
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+          Simplemente el proyecto empezo para practicar mi el web scrapping usando c#, pero busca ser una herramienta que permita generar horarios en cualquier centro universitario en mexico
+          aunque actualmente solo conseguie los datos de UDEG y aun le falta terminar de desarrollarse, pero servira para practicar en general
+          
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Escuela Politecnica de Guadalajara
+        caption: 2016 - 2020
+        sub_title: Tecnologo Profecional en Sistemas Informaticos
+        quote: >
+          algo más que un obrero y menos que un ingeniero
+        description: | # this will include new lines to allow paragraphs
+          En la Escuela Politecnica fue donde empece a refinar principalemente mis conoceimientos generales de desarrollo en diversas areas, aunque realmente no concrete en nada, realmente fue el punto de entrada para empezar a realizar programas y tener un entendimiento general de lo que son las Redes, web development, SDLC y DBA
+
+          Aunque no fue una situacion tan pesada cursar la preparatoria en el politecnico de guadalajara, almenos es mas pesado que cursarlo en una preparatoria general de guadalajara.
+    content:
+      - layout: left
+        title: Centro Universitario de Ciencias Exactas e Ingenierias
+        caption: 2020 - Actualidad
+        sub_title: Ingenieria en Computacion
+        quote: >
+           líder en su campo por su calidad académica e investigación, con una cultura científica, tecnológica y social que le convierten en un agente de cambio articulado local y globalmente,
+        description: | # this will include new lines to allow paragraphs
+          Realmente por la pandemia no pude sacarle gran provecho a lo que fue mi centro universitario durante los primeros 2 años que estuve en la carrera, pero realmente lo que me ayudo fue para reforzar los conocimientos previos que tenia y poder tener un enforque al tener docentes con un enfoque diferente.
+
+          Realmente se me fue mi transcurso por el centro universitario en un parpadeo, pero es estar latente a lo que espera el futuro y seguir aprendiendo
+
+  - title: Un poco mas sobre mi
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Quitando mi parte academica creo que mis principales hobbies son muy marcados:
+      - Instrumentos de viento
+        Saxofon y Flauta Dulce
+      - Gaming 
+        Juegos Ritmicos, RPGs o Puzzles siempre son bienvenidos
+      - Matematicas
+        Cualquier problema relacionado a Teoria de Numeros o combinatoria siempre es entretenido de resolver
+
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
