@@ -72,7 +72,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           La idea del proyecto salio como un chiste para burlarse de los horoscopos, pero en la materia era necesario realizar un proyecto cualquiera y volverlo tolerante a fallas,
           por lo cual se realizo el proyecto y se utilizo principalmente para practicar el uso de kubernetes.
-    content:
       - layout: top-middle
         title: Kairos Scheduler
         link: github.com/Xinoji
@@ -101,7 +100,6 @@ content:
           En la Escuela Politecnica fue donde empece a refinar principalemente mis conoceimientos generales de desarrollo en diversas areas, aunque realmente no concrete en nada, realmente fue el punto de entrada para empezar a realizar programas y tener un entendimiento general de lo que son las Redes, web development, SDLC y DBA
 
           Aunque no fue una situacion tan pesada cursar la preparatoria en el politecnico de guadalajara, almenos es mas pesado que cursarlo en una preparatoria general de guadalajara.
-    content:
       - layout: left
         title: Centro Universitario de Ciencias Exactas e Ingenierias
         caption: 2020 - Actualidad
