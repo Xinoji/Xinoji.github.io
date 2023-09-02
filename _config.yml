@@ -116,10 +116,13 @@ content:
     content: | # this will include new lines to allow paragraphs
       Quitando mi parte academica creo que mis principales hobbies son muy marcados:
       - Instrumentos de viento
+        
         Saxofon y Flauta Dulce
       - Gaming 
+        
         Juegos Ritmicos, RPGs o Puzzles siempre son bienvenidos
       - Matematicas
+        
         Cualquier problema relacionado a Teoria de Numeros o combinatoria siempre es entretenido de resolver
 
 
