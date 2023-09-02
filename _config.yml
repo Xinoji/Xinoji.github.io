@@ -9,7 +9,7 @@ version: 2
 name: Jonathan Isaac Garcia Huerta
 title: ASP.NET Developer 
 email: Jonathan.cn@live.com
-website: github.com/Xinoji/Xinoji.github.io
+#website: github.com/Xinoji/Xinoji.github.io
 
 # Dark Mode (true/false/never)
 darkmode: true
